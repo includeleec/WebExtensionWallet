@@ -39,5 +39,5 @@
   "web_accessible_resources": ["inpage.js"],
 
     "options_page": "html/options.html",
-    "homepage_url": "http://yourdomainhere.com/"
+    "homepage_url": "https://nebulas.io/"
 }
