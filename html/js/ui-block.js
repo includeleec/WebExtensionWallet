@@ -203,7 +203,7 @@ var uiBlock = function () {
             apiList = [
                 { chainId: 1, name: "Mainnet", url: "https://mainnet.nebulas.io", currencies: { "NAS": "",  "ATP": MAIN_NET_ATP_CONTRACT_ADDR, "NAT": MAIN_NET_NAT_CONTRACT_ADDR } },
                 { chainId: 1001, name: "Testnet", url: "https://testnet.nebulas.io", currencies: { "NAS": "",  "ATP": TEST_NET_ATP_CONTRACT_ADDR, "NAT": TEST_NET_NAT_CONTRACT_ADDR } },
-                { chainId: 100, name: "Local Nodes", url: "http://127.0.0.1:8685", currencies: { "NAS": "" } }
+                { chainId: 1111, name: "Local Nodes", url: "http://47.92.203.173:9685", currencies: { "NAS": "" } }
             ];
 
             apiPrefix = (localSave.getItem("apiPrefix") || "").toLowerCase();
